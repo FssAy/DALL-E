@@ -5,7 +5,7 @@ This will get patched very quickly, so use while you can!
 
 ### How to use?
 1. Go to the releases
-2. Download the newest version
+2. [Download](https://github.com/DmitrijVC/DALL-E/releases/download/v1.0.0/dalle.exe) the newest version
 3. Run the application
 
 <br>
@@ -22,4 +22,4 @@ It won't work, using the Tauri API gives us ability to do things that would not 
 <br>
 
 ### Note
-I am not sure if the third-party service is using DALL-E or any other model and idc really ¯\_(ツ)_/¯
+I am not sure if the third-party service is using DALL-E or any other model and idc really ¯\\_(ツ)_/¯
