@@ -1,0 +1,13 @@
+# Compiled files and executables
+/target/
+
+# Private files
+/scripts/deobfuscated
+
+# Test files
+/scripts/listener-hook.js
+/scripts/static_pixlr.js
+/scripts/static
+
+# IDE files
+/.idea

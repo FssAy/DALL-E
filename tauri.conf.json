@@ -1,0 +1,68 @@
+{
+  "build": {
+    "beforeDevCommand": "",
+    "beforeBuildCommand": "",
+    "devPath": "ui",
+    "distDir": "ui",
+    "withGlobalTauri": true
+  },
+  "package": {
+    "productName": "DALL-E",
+    "version": "1.0.0"
+  },
+  "tauri": {
+    "allowlist": {
+      "dialog": {
+        "all": true,
+        "ask": true,
+        "confirm": true,
+        "message": true,
+        "open": true,
+        "save": true
+      },
+      "shell": {
+        "all": false,
+        "open": true
+      },
+      "all": false
+    },
+    "bundle": {
+      "active": true,
+      "targets": "all",
+      "identifier": "com.dalle.dev",
+      "icon": [
+        "icons/32x32.png",
+        "icons/128x128.png",
+        "icons/128x128@2x.png",
+        "icons/icon.icns",
+        "icons/icon.ico"
+      ]
+    },
+    "security": {
+      "csp": null,
+      "dangerousRemoteDomainIpcAccess": [
+        {
+          "scheme": null,
+          "domain": "pixlr.com",
+          "windows": [
+            "MAIN"
+          ],
+          "plugins": [],
+          "enableTauriAPI": true
+        }
+      ]
+    },
+    "windows": [
+      {
+        "label": "MAIN",
+        "fullscreen": false,
+        "resizable": true,
+        "title": "DALL-E",
+        "width": 1270,
+        "minWidth": 1270,
+        "height": 600,
+        "minHeight": 600
+      }
+    ]
+  }
+}
